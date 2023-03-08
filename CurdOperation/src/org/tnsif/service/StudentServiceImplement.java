@@ -1,0 +1,49 @@
+/*package org.tnsif.service;
+
+import org.tnsif.dao.StudentDaoImplements;
+import org.tnsif.dao.studentDao;
+import org.tnsif.entities.Student;
+
+public class StudentServiceImplement implements StudentService{
+
+	
+	private studentDao dao;
+	
+	public StudentServiceImplement() {
+		dao=new StudentDaoImplements();
+	}
+
+	@Override
+	public void add(Student student) {
+		dao.beginTransaction();
+		dao.addStudent(student);
+		dao.commitTransaction();
+		
+	}
+
+	@Override
+	public void update(Student student) {
+		dao.beginTransaction();
+		dao.updateStudent(student);
+		dao.commitTransaction();
+		
+	}
+
+	@Override
+	public void delete(Student student) {
+		dao.beginTransaction();
+		dao.removeStudent(student);
+		dao.commitTransaction();
+		
+	}
+
+	@Override
+	public Student get(int rollno) {
+		
+		Student student=dao.getStudent(rollno);
+		return student;
+		
+		
+	}
+
+}*/
