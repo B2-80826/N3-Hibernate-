@@ -7,7 +7,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-//PROGRAM TO DEMONSTRATE ON ONETOMANY AND MANYTOONE BIDIRECTIONAL
 @Entity
 @Table(name="Person")
 public class Person implements Serializable{
@@ -21,7 +20,7 @@ public class Person implements Serializable{
 	@ManyToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="contactNO")
 	private Contact contact;
-
+//get and setter methosds
 	public Integer getAdharno() {
 		return adharno;
 	}
@@ -48,16 +47,15 @@ public class Person implements Serializable{
 
 	public Person() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
-
+// para constructor
 	public Person(Integer adharno, String name, Contact contact) {
 		super();
 		this.adharno = adharno;
 		this.name = name;
 		this.contact = contact;
 	}
-
+//to string 
 	@Override
 	public String toString() {
 		return "Person [adharno=" + adharno + ", name=" + name + ", contact=" + contact + "]";
