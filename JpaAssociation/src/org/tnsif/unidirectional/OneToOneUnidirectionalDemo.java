@@ -1,6 +1,3 @@
-
-
-
 package org.tnsif.unidirectional;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
