@@ -18,7 +18,7 @@ public class Client {
 		System.out.println("Price range between 300 to 600: "+service.getPrice(300f, 600f));
 		
 		//author name
-		System.out.println("Book with specific author: "+service.getBooksAuthor("Yashwanth"));
+		System.out.println("Book with specific author: "+service.getBooksAuthor("karna"));
 		
 		//to return all the books
 		System.out.println("All books: "+service.getAll());
