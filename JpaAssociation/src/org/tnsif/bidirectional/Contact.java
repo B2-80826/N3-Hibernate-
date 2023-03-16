@@ -9,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-//PROGRAM TO DEMONSTRATE ON ONETOMANY AND MANYTOONE BIDIRECTIONAL
 
 @Entity
 @Table(name="Contact")
