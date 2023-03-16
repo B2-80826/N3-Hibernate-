@@ -1,6 +1,5 @@
 
-//driver class
-//program to demonstrate on OneToOne Unidirectional association
+
 
 package org.tnsif.unidirectional;
 import javax.persistence.EntityManager;
@@ -25,16 +24,16 @@ public class OneToOneUnidirectionalDemo {
 		
 		//first address
 		Address a1=new Address();
-		a1.setPincode(440018);
-		a1.setArea("Ganeshpeth");
-		a1.setCity("Nagpur");
+		a1.setPincode(423604);
+		a1.setArea("jatra");
+		a1.setCity("nashik");
 		a1.setState("Maharashtra");
 		
 		//second address
 		Address a2=new Address();
-		a2.setPincode(411014);
-		a2.setArea("Airoli");
-		a2.setCity("Mumbai");
+		a2.setPincode(4236022);
+		a2.setArea("chas");
+		a2.setCity("kopergaon");
 		a2.setState("Maharashtra");
 		
 		emp2.setAddress(a1);
